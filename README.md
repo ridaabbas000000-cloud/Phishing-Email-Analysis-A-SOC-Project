@@ -6,6 +6,13 @@
 ![SIEM](https://img.shields.io/badge/SIEM-Splunk-orange?style=for-the-badge)
 
 ![Framework](https://img.shields.io/badge/Framework-MITRE_ATT%26CK-green?style=for-the-badge)
+
+
+## 📁Repository Structure
+* `README.md` — Main project overview, IOCs, workflow & MITRE mapping
+* `INCIDENT-REPORT.md` — Full IR report for Incident CLD-012 (Reports 1–5)
+* `TRIAGE-NOTE-REPORT-6.md` — Work note / Triage closure for Report 6 (False Positive)
+ 
 ## 📌 Project Overview
 An end-to-end investigation of a simulated payroll phishing campaign, starting from six user-reported emails and ending in a confirmed account compromise and escalation to incident response.
 Five of the six reports belonged to one campaign, and the sixth was closed as a false positive. The investigation covers email header and authentication analysis (SPF, DKIM, DMARC), IOC extraction and enrichment, campaign scoping and sign-in log analysis in Splunk, MITRE ATT&CK mapping, and containment and eradication recommendations. Searching the logs showed that 32 users received the campaign although only 5 reported it, 3 clicked the link, and 1 account was compromised
@@ -27,8 +34,8 @@ Six employees at a fictional company reported suspicious emails. I triaged them,
 | Accounts confirmed compromised | **1** (`priya.sharma`) |
 
 The compromised account was signed in to from an IP located in Bucharest, Romania, six minutes after the user submitted credentials, using legacy authentication that bypassed MFA. The user's normal location was London, UK. The incident was escalated to incident response with containment and eradication actions requested.
-
-# Scenario
+ 
+## Scenario
 
 On 17 August 2026, employees reported an email titled "Payroll update: action required before Friday payrun". It appeared to come from Company HR and asked staff to confirm bank details.
 
