@@ -10,8 +10,8 @@
 
 ## 📁Repository Structure
 * `README.md` — Main project overview, IOCs, workflow & MITRE mapping
-* `INCIDENT-REPORT.md` — Full IR report for Incident CLD-012 (Reports 1–5)
-* `TRIAGE-NOTE-REPORT-6.md` — Work note / Triage closure for Report 6 (False Positive)
+* `SOC Incident Report.pdf` — Full IR report for Incident CLD-012 (Reports 1–5)
+* `SOC Triage Note.pdf` — Work note / Triage closure for Report 6 (False Positive)
  
 ## 📌 Project Overview
 An end-to-end investigation of a simulated payroll phishing campaign, starting from six user-reported emails and ending in a confirmed account compromise and escalation to incident response.
