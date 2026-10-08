@@ -10,7 +10,7 @@
 
 ## 📁Repository Structure
 * `README.md` — Main project overview, IOCs, workflow & MITRE mapping
-* `SOC Incident Report.pdf` — Full IR report for Incident CLD-012 (Reports 1–5)
+* `SOC Incident Report.pdf` — Full IR report for Incident CLD-010 (Reports 1–5)
 * `SOC Triage Note.pdf` — Work note / Triage closure for Report 6 (False Positive)
  
 ## 📌 Project Overview
