@@ -86,3 +86,8 @@ On 17 August 2026, employees reported an email titled "Payroll update: action re
 * **Threat Intelligence / Enrichment:** VirusTotal, AbuseIPDB for IOC enrichment
 
 * **Analysis:** A text editor for reading raw email headers
+
+  ## 👤 Author
+
+**Your Name**
+* **GitHub:** (https://github.com/ridaabbas000000/cloud)
