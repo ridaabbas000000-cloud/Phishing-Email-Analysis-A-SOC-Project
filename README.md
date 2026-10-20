@@ -7,11 +7,10 @@
 
 ![Framework](https://img.shields.io/badge/Framework-MITRE_ATT%26CK-green?style=for-the-badge)
 
-
-## 📁Repository Structure
-* `README.md` — Main project overview, IOCs, workflow & MITRE mapping
-* `SOC Incident Report.pdf` — Full IR report for Incident CLD-010 (Reports 1–5)
-* `SOC Triage Note.pdf` — Work note / Triage closure for Report 6 (False Positive)
+## 📁 Repository Structure
+* [**`README.md`**](./README.md) — Main project overview, IOCs, workflow & MITRE mapping
+* [**`SOC Incident Report.pdf`**](./SOC%20Incident%20Report.pdf) — Full IR report for Incident CLD-010 (Reports 1–5)
+* [**`SOC Triage Note.pdf`**](./SOC%20Triage%20Note.pdf) — Work note / Triage closure for Report 6 (False Positive)
  
 ## 📌 Project Overview
 An end-to-end investigation of a simulated payroll phishing campaign, starting from six user-reported emails and ending in a confirmed account compromise and escalation to incident response.
