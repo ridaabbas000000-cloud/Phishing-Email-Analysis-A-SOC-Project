@@ -11,7 +11,7 @@
 * [**`README.md`**](./README.md) — Main project overview, IOCs, workflow & MITRE mapping
 * [**`SOC Incident Report.pdf`**](./SOC%20Incident%20Report.pdf) — Full IR report for Incident CLD-010 (Reports 1–5)
 * [**`SOC Triage Note.pdf`**](./SOC%20Triage%20Note.pdf) — Work note / Triage closure for Report 6 (False Positive)
- 
+* [**`Splunk SPL Queries.pdf`**](./Splunk%20SPL%20Queries.pdf) — Splunk SPL investigation queries and log correlation steps
 ## 📌 Project Overview
 An end-to-end investigation of a simulated payroll phishing campaign, starting from six user-reported emails and ending in a confirmed account compromise and escalation to incident response.
 Five of the six reports belonged to one campaign, and the sixth was closed as a false positive. The investigation covers email header and authentication analysis (SPF, DKIM, DMARC), IOC extraction and enrichment, campaign scoping and sign-in log analysis in Splunk, MITRE ATT&CK mapping, and containment and eradication recommendations. Searching the logs showed that 32 users received the campaign although only 5 reported it, 3 clicked the link, and 1 account was compromised
